@@ -1,0 +1,22 @@
+/* src/assets/styles/header.css */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1e3a8a;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto; 
+  }
+  

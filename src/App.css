@@ -1,0 +1,19 @@
+/* src/assets/styles/layout.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  gap: 20px; /* Add spacing between sidebar, graph, and table */
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background: #f9f9f9;
+}
