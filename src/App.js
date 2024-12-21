@@ -10,8 +10,8 @@ const App = () => {
   const product = useSelector((state) => state.product.product);
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/data.json`)
-    .then((response) => response.json())
+    fetch('/data.json')
+      .then((response) => response.json())
       .then((data) => {
         dispatch(setProduct(data[0]));
       });
